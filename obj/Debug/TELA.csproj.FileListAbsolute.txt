@@ -1,0 +1,16 @@
+D:\IFRO\3°Ano\PDS\TELA\bin\Debug\TELA.exe.config
+D:\IFRO\3°Ano\PDS\TELA\bin\Debug\TELA.exe
+D:\IFRO\3°Ano\PDS\TELA\bin\Debug\TELA.pdb
+D:\IFRO\3°Ano\PDS\TELA\obj\Debug\TELA.csproj.AssemblyReference.cache
+D:\IFRO\3°Ano\PDS\TELA\obj\Debug\TELA.csproj.SuggestedBindingRedirects.cache
+D:\IFRO\3°Ano\PDS\TELA\obj\Debug\MainWindow.g.cs
+D:\IFRO\3°Ano\PDS\TELA\obj\Debug\App.g.cs
+D:\IFRO\3°Ano\PDS\TELA\obj\Debug\TELA_MarkupCompile.cache
+D:\IFRO\3°Ano\PDS\TELA\obj\Debug\TELA_MarkupCompile.lref
+D:\IFRO\3°Ano\PDS\TELA\obj\Debug\MainWindow.baml
+D:\IFRO\3°Ano\PDS\TELA\obj\Debug\TELA.g.resources
+D:\IFRO\3°Ano\PDS\TELA\obj\Debug\TELA.Properties.Resources.resources
+D:\IFRO\3°Ano\PDS\TELA\obj\Debug\TELA.csproj.GenerateResource.cache
+D:\IFRO\3°Ano\PDS\TELA\obj\Debug\TELA.csproj.CoreCompileInputs.cache
+D:\IFRO\3°Ano\PDS\TELA\obj\Debug\TELA.exe
+D:\IFRO\3°Ano\PDS\TELA\obj\Debug\TELA.pdb
