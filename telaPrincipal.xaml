@@ -39,13 +39,13 @@
                     
                 </Grid.ColumnDefinitions>
 
-                <StackPanel Grid.Column="0">
-                    <Button Content="Entrar" Padding="8" Margin="0 5 5 0"/>
-                </StackPanel>
+                
+                    <Button Grid.Column = "0"  Content = "Entrar" Padding="8" Margin="5 10" />
+                
 
-                <StackPanel Grid.Column="1">
-                    <Button Content="Sair" Padding="8" Margin="0 5 0 0"/>
-                </StackPanel>
+ 
+                    <Button Grid.Column = "1" Content= "Sair" Padding="8" Margin="5 10"/>
+                
                 
             </Grid>
             
