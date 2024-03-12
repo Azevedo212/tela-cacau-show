@@ -7,6 +7,34 @@
         mc:Ignorable="d"
         Title="telaPrincipal" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Background="White"/>
+        <Image Source="/Imagens/image-removebg-preview.png" Width="300"/>
+        <Border Grid.Column="1" Background = "#FF462E1F"/>
+
+        <StackPanel Grid.Column="1" Margin="20"
+                    VerticalAlignment="Center">
+
+            
+            <TextBlock Text="Cacau Show" FontSize="30" Foreground="White" 
+                       HorizontalAlignment="Center" FontFamily="Comic Sans MS"/>
+
+
+            <Label Content=" Usuário" FontSize="20" Foreground="White" FontFamily="Comic Sans MS"/>
+            <TextBox FontSize="15" Padding="5" />
+
+            <Label Content="Senha" FontSize="20" Foreground="White" FontFamily="Comic Sans MS"/>
+            <TextBox FontSize="15" Padding="5" />
+            
+            <Button Content="Entrar" Padding="8"   Margin="0 10" Width="100"/>
+            <Button Content="Sair" Padding="8" Width="100"/>
+
+
+        </StackPanel>
+
     </Grid>
 </Window>

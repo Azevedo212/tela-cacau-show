@@ -39,12 +39,13 @@ namespace TELA
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-          
+            string usuario = bt_usuario.Text;
+            string senha = bt_senha1.Password;
 
            
             
 
-            if (bt_usuario.Text == "admin" && bt_senha.Text == "123")
+            if (usuario == "admin" && senha == "123")
             {
                 telaPrincipal tela = new telaPrincipal();
                 tela.ShowDialog();
