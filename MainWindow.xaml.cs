@@ -35,7 +35,32 @@ namespace TELA
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+      
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+          
+
+           
+            
+
+            if (bt_usuario.Text == "admin" && bt_senha.Text == "123")
+            {
+                telaPrincipal tela = new telaPrincipal();
+                tela.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Usário ou senha incorreta");
+            }
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bt_senha_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
