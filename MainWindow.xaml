@@ -12,9 +12,9 @@
         <Label Content="Usuário:&#xD;&#xA;" HorizontalAlignment="Left" Margin="442,121,0,0" VerticalAlignment="Top" FontFamily="Bauhaus 93" Foreground="White" FontSize="14"/>
         <Label Content="Senha:" HorizontalAlignment="Left" Margin="442,191,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.304,-1.141" FontFamily="Bauhaus 93" Background="{x:Null}" Foreground="White" FontSize="14" BorderBrush="Black"/>
         <TextBox x:Name="bt_usuario" HorizontalAlignment="Left" Margin="442,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextChanged="TextBox_TextChanged" BorderThickness="1,1,1,1" BorderBrush="Black" Grid.IsSharedSizeScope="True"/>
-        <Button Content="Entrar" HorizontalAlignment="Left" Margin="438,279,0,0" VerticalAlignment="Top" Width="80" FontFamily="Segoe UI Black" Height="24" RenderTransformOrigin="0.493,1.21" Click="Button_Click_1"/>
+        <Button Content="Entrar" HorizontalAlignment="Left" Margin="432,279,0,0" VerticalAlignment="Top" Width="80" FontFamily="Segoe UI Black" Height="24" RenderTransformOrigin="0.493,1.21" Click="Button_Click_1"/>
         <Button Content="Sair" HorizontalAlignment="Left" Margin="538,279,0,0" VerticalAlignment="Top" Width="70" BorderThickness="1,1,1,1" FontFamily="Segoe UI Black" Height="25" RenderTransformOrigin="0.4,1.082" Click="Button_Click_2"/>
-        <Image Height="NaN" Margin="20,33,248,29" Source="/image-removebg-preview.png" Stretch="Fill" Width="NaN"/>
+        <Image Height="NaN" Margin="10,33,221,29" Source="/image-removebg-preview.png" Stretch="Fill" Width="NaN"/>
         <PasswordBox x:Name="bt_senha1" HorizontalAlignment="Left" Margin="442,223,0,0" VerticalAlignment="Top" Width="148" BorderBrush="Black"/>
 
     </Grid>
