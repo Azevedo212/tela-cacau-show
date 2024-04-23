@@ -55,17 +55,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Telas\telaPrincipal.xaml.cs">
-      <DependentUpon>telaPrincipal.xaml</DependentUpon>
-    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Telas\telaPrincipal.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    <Compile Include="Telas\TelaLogin.xaml.cs">
+      <DependentUpon>TelaLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\TelaPrincipal.xaml.cs">
+      <DependentUpon>TelaPrincipal.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -98,6 +97,19 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Recursos\Fontes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\Imagens\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Telas\TelaLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Telas\TelaPrincipal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
