@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TELA
+namespace TELA.Telas
 {
     /// <summary>
-    /// Lógica interna para telaPrincipal.xaml
+    /// Interação lógica para TelaPrincipal.xam
     /// </summary>
-    public partial class telaPrincipal : Window
+    public partial class TelaPrincipal : Page
     {
-        public telaPrincipal()
+        public TelaPrincipal()
         {
             InitializeComponent();
         }
